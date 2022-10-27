@@ -20,8 +20,3 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 8003
-      - name: anshika
-        image: signin/hello:tagVersion
-        imagePullPolicy: Always
-        ports:
-        - containerPort: 8003
