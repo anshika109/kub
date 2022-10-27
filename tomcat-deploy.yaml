@@ -19,4 +19,4 @@ spec:
         image: signin/hello:tagVersion
         imagePullPolicy: Always
         ports:
-        - containerPort: 8003
+        - containerPort: 8080
