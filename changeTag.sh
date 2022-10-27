@@ -1,3 +1,3 @@
 #!/bin/bash   
-sed "s/tagVersion/$1/g" tomcat-deploy.yaml
-cat tomcat-deploy.yaml
+sed "s/tagVersion/$1/g" tomcat-deploy.yaml > node-app.yaml
+
