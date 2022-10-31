@@ -1,12 +1,12 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: hello
+  name: loginapp
 spec:
   selector:
-    app: hello
+    app: loginapp
   ports:
   - protocol: TCP
     port: 80
-    targetPort: 8080
+    targetPort: 8090
   type: LoadBalancer
