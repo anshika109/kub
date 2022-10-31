@@ -7,5 +7,6 @@ spec:
     app: loginapp
   ports:
   - protocol: TCP
-    targetPort: 8090
+    port: 80
+    targetPort: 8080
   type: LoadBalancer
