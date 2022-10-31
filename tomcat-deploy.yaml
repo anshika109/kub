@@ -18,5 +18,3 @@ spec:
       - name: loginapp
         image: signin/loginapp:tagVersion
         imagePullPolicy: Always
-        ports:
-        - containerPort: 8090
