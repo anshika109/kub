@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello
+  name: loginapp
   labels:
-    app: hello
+    app: loginapp
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: hello
+      app: loginapp
   template:
     metadata:
       labels:
-        app: hello
+        app: loginapp
     spec:
       containers:
-      - name: helloworld
-        image: signin/hello:tagVersion
+      - name: loginapp
+        image: signin/loginapp:tagVersion
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
